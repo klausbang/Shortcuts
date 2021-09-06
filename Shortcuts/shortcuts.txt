@@ -1,0 +1,29 @@
+# Shortcuts configuration file.
+# The format is: (\t is the code for tab)
+# Label\tLink\tTool-tip text
+# Lines beginning with # are comments and are ignored by the program
+# Lines beginning with ' are headlines that are not executed if selected. 
+# Empty lines may be added to improve readability of the file, but are ignored by the program
+#
+# Have fun!
+#
+
+'--- Standards ---
+9000	C:\Users\klaus\OneDrive\Documents\standarder\DS_EN ISO 9000_2015.pdf	Quality
+13485	C:\Users\klaus\OneDrive\Documents\standarder\DS_EN ISO 13485_2016.pdf	Quality
+
+62366-1	C:\Users\klaus\OneDrive\Documents\standarder\DS_EN 62366-1_2015.pdf	Usability
+62366-2	C:\Users\klaus\OneDrive\Documents\standarder\DS_IEC TR 62366-2_2016.pdf	Usability
+82304-1	C:\Users\klaus\OneDrive\Documents\standarder\DS_EN 82304-1_2017.pdf	Software
+
+'--- Guides ---
+Design Control Guidance	C:\Users\klaus\OneDrive\Documents\standarder\Design-Control-Guidance-For-Medical-Device-Manufacturers.pdf	FDA Design Control Guide
+
+'--- Programs ---
+Shortcuts File	C:\Users\klaus\Documents\shortcuts\shortcuts.txt	ToolTip: Åbner shortcutfilen i Notepad
+
+'--- Links ---
+Github introvideo	https://www.youtube.com/watch?v=iv8rSLsi1xo	Introduction video for GitHub on YouTube
+Github introvideo	https://www.youtube.com/watch?v=iv8rSLsi1xo	Introduction video for GitHub on YouTube
+GitHub intro (text)	https://guides.github.com/activities/hello-world/	Introduction to GitHub by GitHub
+Klaus' GitHub	https:\\www.github.com\klausbang	Direct link to my GitHub site
