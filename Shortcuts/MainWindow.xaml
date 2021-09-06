@@ -1,0 +1,26 @@
+﻿<Window x:Class="Shortcuts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shortcuts"
+        mc:Ignorable="d"
+        Title="Shortcuts" Height="669.955" Width="476.121">
+    <Grid>
+        <RadioButton x:Name="RunAtSelection" HorizontalAlignment="Left" Height="15" Margin="146,575,0,0" VerticalAlignment="Top" Width="211" IsChecked="True" Content="Run at Selection"/>
+        <RadioButton x:Name="RunAtDoubleClick" HorizontalAlignment="Left" Height="15" Margin="146,595,0,0" VerticalAlignment="Top" Width="211" Content="Run at Double Click/Return/Space"/>
+
+        <ListBox x:Name="ShortcutsListbox" HorizontalAlignment="Left" Height="527" VerticalAlignment="Top" Width="311" Margin="0,10,0,0" 
+                 SelectionChanged="ShortcutsListbox_SelectionChanged" MouseDoubleClick="ShortcutsListbox_MouseDoubleClick" KeyUp="ShortcutsListbox_KeyUp" MouseUp="ShortcutsListbox_MouseUp"/>
+        <Button x:Name="openShortcutsFileButton" Content="Open Shortcuts File" HorizontalAlignment="Left" Height="26" 
+                Margin="0,0,0,49" VerticalAlignment="Bottom" Width="126" 
+                Click="openShortcutsFileButton_Click"/>
+        <Button x:Name="updateShortcutsButton" Content="Update Shortcuts" HorizontalAlignment="Left" Height="26" VerticalAlignment="Bottom" Width="126" 
+                Click="updateShortcutsButton_Click" Margin="0,0,0,18"/>
+        <Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Right" Height="26" 
+                Margin="0,0,10,18" VerticalAlignment="Bottom" Width="76" 
+                Click="exitButton_Click"/>
+    </Grid>
+</Window>
+
+    
