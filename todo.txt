@@ -15,3 +15,28 @@ Som svar på dit spørgsmål, så har jeg opbygget min shortcuts-fil på følgen
 Det virker, men principielt er det uheldigt at bruge {} da de to tegn rent faktisk er lovlige i et filnavn og man kunne let forestille sig at nogen brugte dem.
 
 Når man lader brugeren have valgmuligheder (som du gør mellem at bruge enkelt eller dobbeltklik) så er det god stil at gemme brugerens valg til næste gang. Hvis brugeren nu ikke kan lide dit valgte default, så skal han ændre det hver eneste gang han kører programmet. Så her får du helt gratis mulighed for at bruge lidt mere tid på at programmere 😊 Hvis du skal udfordres kunne vi jo stille som krav at du ikke må holde styr på det via en fil eller database som du selv opretter. Så kan du jo tænke over hvad man så kan gøre ???
+
+
+Egne ideer og links til info:
+Lav Shortcut listen flytbar mellem hjemme og arbejdscomputer. F.eks. med parameter i installationen der angiver et navn for installationen, [HJEM, ARBEJDE, BÆRBAR osv], og nogle sektionsoverskrifter/linie tags der angiver om stien hører til det ene eller det andet eller er fælles for alle, f.eks. eksterne links.
+Kan kombineres med forskellige stier til hvor f.eks. standarder er placeret, men hvor standardens navn og filnavn ellers er fælles.
+Eks: %WORK%= C:\Users\AU000NK6\OneDrive - WSA\Documents
+Eks: %HOME%= C:\Users\klaus\OneDrive\Documents
+På arbejde bliver %PATH%=%WORK% og hjemme bliver %PATH%=%HOME%
+14971 \t %PATH%\Standards\ISO14971_2019.pdf \t Risk Management Standard (ISO14971:2019)
+mens eksterne links stadig blot er https:\\dr.dk
+
+Shortcuts der kun fungerer på f.eks. arbejde, f.eks. tidregistrering kan markeres med:
+_WORK_Tidregistrering %WORK%\Job\Tidsregistrering.xlsx
+eller
+_HOME_Madplan %HOME%\Madplaner\madplan.doc
+
+
+
+User settings: https://docs.microsoft.com/en-us/dotnet/desktop/winforms/advanced/using-application-settings-and-user-settings?view=netframeworkdesktop-4.8
+https://stackoverflow.com/questions/3784477/c-sharp-approach-for-saving-user-settings-in-a-wpf-application
+https://docs.microsoft.com/en-us/archive/blogs/patrickdanino/user-settings-in-wpf
+https://dedjo.blogspot.com/2008/04/quick-wpf-tip-how-to-bind-to-wpf.html
+https://joshsmithonwpf.wordpress.com/2007/12/27/a-configurable-window-for-wpf/
+
+
