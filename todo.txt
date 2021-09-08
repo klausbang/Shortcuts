@@ -1,0 +1,17 @@
+Forslag til opdateringer fra Michael:
+
+Du checker efter ”http” for et webside link, men alle webside links starter ikke med ”http”. F.eks. er ”tv2.dk/” en gyldig måde at gå til TV2s hjemmeside. Det fanger dit program ikke.
+
+Jeg kunne alligevel ikke lade være. Prøv at ændre størrelse på formen og se hvad der sker - Prøv både at gøre den mindre og større 😊
+
+Hvorfor pokker linker du til den samme video tre gange – tror du jeg er tungnem? 😊
+
+Du har hardkodet stien til filen ind i programmet, hvilket betyder at det ikke kan flyttes uden en rekompilering. Dvs. på samme PC kan du flytte .exe-filen, men du kan ikke flytte din shortcuts-fil og du kan slet ikke flytte det til en anden PC uden at oprette samme sti til din shortcuts-fil hvis det skal virke.
+
+Hvis du ser på det screendump jeg oprindeligt sendte dig, er det tydeligt at programmet også skal kunne åbne foldere. Det kan dit ikke som det er nu. Man får bare en fejlmeddelelse. Så her har du lige en udvidelse der skal indføres før du har opfyldt SRSen
+
+Som svar på dit spørgsmål, så har jeg opbygget min shortcuts-fil på følgende måde:
+{TeamViewer} <C:\Program Files (x86)\TeamViewer\TeamViewer.exe>
+Det virker, men principielt er det uheldigt at bruge {} da de to tegn rent faktisk er lovlige i et filnavn og man kunne let forestille sig at nogen brugte dem.
+
+Når man lader brugeren have valgmuligheder (som du gør mellem at bruge enkelt eller dobbeltklik) så er det god stil at gemme brugerens valg til næste gang. Hvis brugeren nu ikke kan lide dit valgte default, så skal han ændre det hver eneste gang han kører programmet. Så her får du helt gratis mulighed for at bruge lidt mere tid på at programmere 😊 Hvis du skal udfordres kunne vi jo stille som krav at du ikke må holde styr på det via en fil eller database som du selv opretter. Så kan du jo tænke over hvad man så kan gøre ???
