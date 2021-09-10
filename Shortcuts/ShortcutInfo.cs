@@ -61,10 +61,14 @@ namespace Shortcuts
             if (sc_content.Length >= 2)
             {
                 ShortcutLink = sc_content[1];
+                if (sc_content.Length == 2)
+                {
+                    ShortcutToolTip = sc_content[1]; // If no tooltip - set the link as the tooltip
+                }
             }
             if (sc_content.Length >= 3)
             {
-                ShortcutToolTip = sc_content[2];
+                ShortcutToolTip = sc_content[2] + "\n" + sc_content[1];
             }
         }
 
